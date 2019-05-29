@@ -1,11 +1,14 @@
 import React from 'react';
 import Search from './Components/searchBar';
 import Course from './Components/course.js';
+import Table from './Components/table';
+import Time from './Components/time-table';
 class App extends React.Component{
 
 state={
   array:[{code:"Course Code",key:1,code2:"Course Title"}],i:0
 }
+
 
 addCourse=(course)=>{
   course.code2="undefined";
@@ -17,7 +20,6 @@ addCourse=(course)=>{
 
 render() 
   {
-    console.log(this.state.array);
   return (
 
 
@@ -27,6 +29,11 @@ render()
         <Search addCourse={this.addCourse}/>
 
         <Course array={this.state.array}/>
+
+
+        <Table/>
+
+        <Time/>
        
    </div>
 

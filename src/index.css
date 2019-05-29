@@ -30,6 +30,8 @@ input::placeholder {
   margin-top:2%;  
   border:2px black solid;
   width:35%;
+  float:left;
+  margin-left:1%;
 } 
 th{
   border:2px black solid;
@@ -39,3 +41,50 @@ th{
   border:2px green solid;
   text-align:center;
 } 
+.slotTable{
+border:2px black inset;
+width:60%;
+height:620px;
+display:block;  
+margin-top:2%; 
+float:left; 
+margin-left:2%; 
+max-height:100%;
+}
+/* h1{
+  border:black 2px solid;
+} */
+
+button{
+  border:none;
+  margin:0.7%;
+  font-size:15px;
+  padding: 0.7%;
+  background:none;
+}
+button:active{
+  border:#eee 2px inset;
+}
+
+.venue{
+  margin-left:60%;
+}
+.hide{
+  opacity:0;
+}
+.show{
+  opacity:1;
+  margin-top:2%;
+}
+#one{
+  margin-left:7%;
+  margin-right:7%;
+  text-decoration: none;
+  color:black;
+}
+#one:hover{
+  border :#eee solid;
+  border-radius:20px;
+  padding-left:20px;
+  padding-right:20px;
+}

@@ -21,6 +21,10 @@ handleSubmit=(e)=>{
 
 }
 
+handleClick=(e)=>{
+   console.log(e.target);
+}
+
 render() {
 
   return (
@@ -30,7 +34,7 @@ render() {
         <form onSubmit={this.handleSubmit}>
         <input onChange={this.handleChange} placeholder="Search By Course Code/ Title / Slot" type="text" id="courseselection" />
         </form>
-        <a href="#"><i class="fas fa-filter" id="filter"></i></a>
+        <a href="#"><i class="fas fa-filter" id="filter" onClick={this.handleClick}><div className="before"></div></i></a>
 
    </div>
 
