@@ -3,6 +3,7 @@ import Search from './Components/searchBar';
 import Course from './Components/course.js';
 import Table from './Components/table';
 import Time from './Components/time-table';
+import CourseTable from './Components/coursetable';
 class App extends React.Component{
 
 state={
@@ -34,7 +35,8 @@ render()
         <Table/>
 
         <Time/>
-       
+
+        <CourseTable/>    
    </div>
 
   )

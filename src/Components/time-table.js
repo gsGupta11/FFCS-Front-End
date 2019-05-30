@@ -24,7 +24,7 @@ class Time extends React.Component{
                                 <br/>12:50 PM
                             </td>
                             <td class="TheoryHours"></td>
-                            <td width="8px" rowspan="9" class="ColumnOneDays">
+                            <td width="8px" rowSpan="9" class="ColumnOneDays">
                                 
                                 <strong>B
                                 <br/>R
@@ -216,10 +216,13 @@ class Time extends React.Component{
                             <td class="TimetableContent V11 L94"><span class="slot-name">V11 / L94</span></td>
                         </tr>
 
-                        {/* </tbody> */}
+                       
                     </table>
                         </div>
         )
         }
     }
     export default Time;
+
+
+    

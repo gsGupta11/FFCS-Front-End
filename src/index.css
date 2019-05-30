@@ -32,12 +32,13 @@ input::placeholder {
   width:35%;
   float:left;
   margin-left:1%;
-} 
-th{
+}
+
+.lefthead{
   border:2px black solid;
 
 }
- td{
+.leftdata{
   border:2px green solid;
   text-align:center;
 } 
@@ -87,4 +88,55 @@ button:active{
   border-radius:20px;
   padding-left:20px;
   padding-right:20px;
+}
+
+.after span{
+  display:inline-block;
+  margin:5%;
+  margin-top:7%;
+  margin-bottom:7%;
+    
+  
+}
+.before{
+ 
+  display:none;
+ 
+}
+
+.after{
+ /* height:25%; */
+ position: absolute;
+  border:black 2px solid;
+  z-index:1;
+  top:25%;  
+  width:30%;
+  display:block;
+  left:50%;
+  animation: pop 0.3s both ease-out;
+}
+
+@keyframes pop { 
+  0%{transform:translateY(-100px);}
+  50%{transform:translateY(0px);} 
+  75%{transform:translateY(-10px);}
+  100%{transform:translateY(0px);}
+}
+
+
+
+#courseListTbl{
+  width:100%;
+  border:solid black solid;
+
+}
+
+.FinalCT{
+  margin-top:1%;
+}
+td{
+  border:black 2px solid;
+}
+th{
+  border:black 2px solid; 
 }

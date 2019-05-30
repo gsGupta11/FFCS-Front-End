@@ -5,8 +5,8 @@ const Course = ({array})=>{
     var tableHeaders= array.slice(0,1).map(value=>{
         return(
             <tr>
-                <th>{value.code}</th>
-                <th>{value.code2}</th>
+                <th className="lefthead">{value.code}</th>
+                <th  className="lefthead">{value.code2}</th>
             </tr>
         )
     })
@@ -14,8 +14,8 @@ const Course = ({array})=>{
     var courselist =  array.slice(1).map(value=>{
              return(
                         <tr className="courses" key={value.key}>
-                    <td>{value.code}</td>
-                    <td>{value.code2}</td>
+                    <td className="leftdata">{value.code}</td>
+                    <td className="leftdata">{value.code2}</td>
                         </tr>
                
                  )
