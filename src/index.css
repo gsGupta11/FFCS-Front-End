@@ -1,5 +1,6 @@
 body{
-  font-size:20px;
+  font-size:17px;
+  font-family:inherit; 
 }
 
 
@@ -30,10 +31,10 @@ input::placeholder {
  .courseTable{
   margin-top:2%;  
   border:2px black solid;
-  width:35%;
+  width:100%;
   float:left;
   margin-left:1%;
-   
+   border-collapse: collapse;   
 }
 
 .lefthead{
@@ -80,6 +81,8 @@ button:active{
 .show{
   opacity:1;
   margin-top:2%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #one{
   margin-left:7%;
@@ -132,7 +135,8 @@ button:active{
 #courseListTbl{
   width:100%;
   border:solid black solid;
-
+  border-collapse: collapse;
+  text-align: center;
 }
 
 .FinalCT{
@@ -162,22 +166,27 @@ button:active{
 td{
   white-space: nowrap;
   border-collapse: collapse;
-  border:black 2px solid; 
+  border: 1px solid; 
+  font-family: 'Maven Pro', sans-serif;
 }
 tr{
   white-space:nowrap; 
   border-collapse: collapse;
-  border:black 2px solid;
+  border:grey 1px solid;
+  font-family: 'Maven Pro', sans-serif;
 }
 th{
   white-space: nowrap;
   border-collapse: collapse;  
-  border:black 2px solid;
+  border:grey 1px solid;
+  font-family: 'Maven Pro', sans-serif;
 }
 .table-table-bordered{
   border-collapse: collapse;
   border:none ;
-  border:black 2px solid; 
+  border:grey 1px solid; 
+  height:450px;
+  font-family: 'Maven Pro', sans-serif;
 }
 #data{
   cursor:pointer;
@@ -186,4 +195,25 @@ th{
 }
 #data:hover{
   background:lightseagreen;
+} 
+
+.courselist{
+  margin-top:1.4%;
+  max-height:650px;
+  clear:both;
+  overflow: scroll;
+  width:35%;
+  float:left;
+  padding-right: 15px;  
+
+} 
+.courselist::-webkit-scrollbar { width: 0 !important }
+
+#newdiv{
+ float:left;
+
+}
+
+#newouterdiv{
+text-align:center;
 }

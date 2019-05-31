@@ -31,6 +31,7 @@ handleclickevent=(e)=>{
 handleClick=(e)=>{
     var y=document.getElementById("LTJPC");
 
+
     if (y.className="before"){
         y.className="after";
     
