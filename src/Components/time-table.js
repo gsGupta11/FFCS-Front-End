@@ -5,19 +5,27 @@ class Time extends React.Component{
     render() {
   
         return (
-                    <div>       
-                        <table class="table table-bordered">
+                    <div class="slottable">       
+                        <table class="table-table-bordered">
                         <tr>
                             <td class="ColumnOneDays">
-                               { "THEORY\n HOURS"}
+                               THEORY<br/> HOURS
                             </td>
-                            <td class="TheoryHours">{"08:00 AM \n to \n 08:50 AM"}
+                            <td class="TheoryHours">08:00 AM 
+                                <br/> to <br/>
+                                 08:50 AM
                             </td>
-                            <td class="TheoryHours">{"09:00 AM \n to \n 09:50 AM"}
+                            <td class="TheoryHours">09:00 AM 
+                                <br/> to <br/>
+                                 09:50 AM
                             </td>
-                            <td class="TheoryHours">{"10:00 AM \n to \n 10:50 AM"}
+                            <td class="TheoryHours">10:00 AM 
+                                <br/> to <br/>
+                                 10:50 AM
                             </td>
-                            <td class="TheoryHours">{"11:00 AM \n to \n 11:50 AM"}
+                            <td class="TheoryHours">11:00 AM 
+                                <br/> to <br/>
+                                 11:50 AM
                             </td>
                             <td class="TheoryHours">12:00 PM 
                                 <br/>to
@@ -225,4 +233,3 @@ class Time extends React.Component{
     export default Time;
 
 
-    

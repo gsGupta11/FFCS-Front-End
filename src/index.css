@@ -25,6 +25,7 @@ input::placeholder {
   position:absolute;
   top:3%;
   left:89%;
+  z-index: 11;
 }
  .courseTable{
   margin-top:2%;  
@@ -32,6 +33,7 @@ input::placeholder {
   width:35%;
   float:left;
   margin-left:1%;
+   
 }
 
 .lefthead{
@@ -52,6 +54,8 @@ float:left;
 margin-left:2%; 
 max-height:100%;
 }
+
+
 /* h1{
   border:black 2px solid;
 } */
@@ -139,4 +143,39 @@ td{
 }
 th{
   border:black 2px solid; 
+}
+.slottable{
+  width:95%;
+  margin-left:auto;
+  margin-right: auto;
+  padding-top:5%;
+  margin-bottom:5%;
+  clear:left; 
+  text-align:center;
+}
+.ColumnOneDays{
+  width:7.9%;
+}
+.TheoryHours{
+  width:7.9%;
+}
+
+.LabHours{
+  width: 7.9%;
+}
+
+td{
+  white-space: nowrap;
+  border-collapse: collapse;
+}
+tr{
+  white-space:nowrap; 
+  border-collapse: collapse;
+}
+th{
+  white-space: nowrap;
+  border-collapse: collapse;  
+}
+.table-table-bordered{
+  border-collapse: collapse;
 }
