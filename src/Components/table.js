@@ -18,7 +18,7 @@ class Table extends React.Component{
         return(
             <div className="slotTable" >
                 <button>Lab</button>
-                <button>Theory</button>
+                <button>Theory</button> 
                 <button>Practicals</button>
 
                 <button className="venue" onClick={this.handleclick}>Venue Filter</button>

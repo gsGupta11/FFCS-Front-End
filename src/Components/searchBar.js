@@ -30,8 +30,11 @@ handleclickevent=(e)=>{
 
 handleClick=(e)=>{
     var y=document.getElementById("LTJPC");
+
     if (y.className="before"){
         y.className="after";
+    
+    
     }
    
 
@@ -52,7 +55,7 @@ render() {
         <div className="before" id="LTJPC" >
             
            <a onClick={this.handleclickevent} href="#"><span>Theory Only</span></a>
-            <a onclick={this.handleclickevent} href="#"><span>Lab Only</span></a>
+            <a onClick={this.handleclickevent} href="#"><span>Lab Only</span></a>
             <a onClick={this.handleclickevent} href="#"><span>Theory+Lab</span></a>
             <a onClick={this.handleclickevent} href="#"><span>Theory+Project</span></a>
             <a onClick={this.handleclickevent} href="#"><span>Theory+Lab+Project</span></a>

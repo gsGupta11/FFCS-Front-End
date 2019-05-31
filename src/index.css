@@ -138,12 +138,7 @@ button:active{
 .FinalCT{
   margin-top:1%;
 }
-td{
-  border:black 2px solid;
-}
-th{
-  border:black 2px solid; 
-}
+
 .slottable{
   width:95%;
   margin-left:auto;
@@ -167,15 +162,28 @@ th{
 td{
   white-space: nowrap;
   border-collapse: collapse;
+  border:black 2px solid; 
 }
 tr{
   white-space:nowrap; 
   border-collapse: collapse;
+  border:black 2px solid;
 }
 th{
   white-space: nowrap;
   border-collapse: collapse;  
+  border:black 2px solid;
 }
 .table-table-bordered{
   border-collapse: collapse;
+  border:none ;
+  border:black 2px solid; 
+}
+#data{
+  cursor:pointer;
+  background:#FBF1E3;
+  color:#595959; 
+}
+#data:hover{
+  background:lightseagreen;
 }
